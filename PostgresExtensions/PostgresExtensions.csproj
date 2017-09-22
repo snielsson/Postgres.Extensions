@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Stig Schmidt Nielsson</Authors>
+    <Company>Nielsson Consulting &amp; TradingLens.com</Company>
+    <Copyright>Copyright (c) 2017 Stig Schmidt Nielsson. Published under the DO WHAT THE F*CK YOU WANT TO PUBLIC LICENSE TERMS AND CONDITIONS.</Copyright>
+    <PackageLicenseUrl>https://github.com/snielsson/Postgres.Extensions/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/snielsson/Postgres.Extensions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/snielsson/Postgres.Extensions</RepositoryUrl>
+    <RepositoryType>C#</RepositoryType>
+    <PackageTags>C# Postgres Npgsql Extensions</PackageTags>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <AssemblyVersion>0.0.1</AssemblyVersion>
+    <FileVersion>0.0.1</FileVersion>
+    <Description>C# extension methods for querying, managing and migrating Postgres databases.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql" Version="3.2.5" />
+  </ItemGroup>
+
+</Project>
